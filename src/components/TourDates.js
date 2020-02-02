@@ -1,0 +1,48 @@
+import React from "react";
+import PropTypes from "prop-types";
+import moment from "moment";
+
+const TourDates = ({ tourDates = [] }) => {
+  return (
+    <ul className="alt align-left tour-dates">
+      {tourDates.map(({ date, location, venue, rsvp, ticketUrl, venueUrl }) => (
+        <li>
+          <div className="row">
+            <div className="col-3 col-12-small date">
+              {moment(date).format("MMM D YYYY")}
+            </div>
+            <div className="col-4 col-12-small">
+              {venueUrl && (
+                <p className="venue">
+                  <a href={venueUrl} target="_blank">
+                    {venue}
+                  </a>
+                </p>
+              )}
+              {!venueUrl && <p className="venue">{venue}</p>}
+              <p>{location}</p>
+            </div>
+            <div className="col-5 col-12-small actions-wrapper">
+              <a href="#" className="button narrow icon solid fa-user-plus">
+                RSVP
+              </a>
+              {ticketUrl && (
+                <a
+                  href={ticketUrl}
+                  className="button narrow icon solid fa-ticket-alt"
+                  target="_blank"
+                >
+                  Tickets
+                </a>
+              )}
+            </div>
+          </div>
+        </li>
+      ))}
+    </ul>
+  );
+};
+
+TourDates.propTypes = { tourDates: PropTypes.array };
+
+export default TourDates;

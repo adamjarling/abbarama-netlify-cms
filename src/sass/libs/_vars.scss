@@ -1,0 +1,154 @@
+// Color scheme from: https://coolors.co/001514-fbfffe-6b0504-a3320b-e6af2e
+// rich black: #001514
+// white: #FBFFFE
+// rosewood: #6B0504
+// rufous: #A3320B
+// urobilin: #E6AF2E
+
+// https://paletton.com/
+$color-primary-0: #c9a741; // Main Primary color */
+$color-primary-1: #ffe79f;
+$color-primary-2: #ebcb6c;
+$color-primary-3: #aa8823;
+$color-primary-4: #836408;
+
+$color-secondary-1-0: #583488; // Main Secondary color (1) */
+$color-secondary-1-1: #997dbe;
+$color-secondary-1-2: #7250a0;
+$color-secondary-1-3: #442073;
+$color-secondary-1-4: #2d0d59;
+
+$color-secondary-2-0: #305e81; // Main Secondary color (2) */
+$color-secondary-2-1: #779bb7;
+$color-secondary-2-2: #4b7697;
+$color-secondary-2-3: #1c4a6d;
+$color-secondary-2-4: #0a3454;
+
+// From ROA Poster
+$gold: #c9a741;
+$aqua: #21a69d;
+$yellow: #e3cc5b;
+$orange: #ed6a26;
+$red: #e72224;
+$purple: #9c1f60;
+$blue: #135691;
+
+// Misc.
+$misc: (
+  max-spotlights: 10,
+  max-features: 10,
+  z-index-base: 10000
+);
+
+// Duration.
+$duration: (
+  transitions: 0.2s,
+  menu: 0.5s,
+  fadein: 3s
+);
+
+// Size.
+$size: (
+  element-height: 2.75em,
+  element-margin: 2em,
+  letter-spacing: 0.075em,
+  letter-spacing-alt: 0.225em
+);
+
+// Font.
+$font: (
+  family: (
+    "Open Sans",
+    Helvetica,
+    sans-serif
+  ),
+  family-fixed: (
+    "Courier New",
+    monospace
+  ),
+  weight: 400,
+  weight-bold: 600,
+  weight-extrabold: 800
+);
+
+// Palette.
+$palette: (
+  bg: #6e6e6e,
+  fg: #fff,
+  fg-bold: #fff,
+  fg-light: rgba(255, 255, 255, 0.5),
+  border: #fff,
+  border-bg: rgba(144, 144, 144, 0.25),
+  border2: #fff,
+  border2-bg: rgba(144, 144, 144, 0.5),
+  accent1: (
+    bg: $gold,
+    fg-bold: #ffffff,
+    fg: mix($gold, #ffffff, 25%),
+    fg-light: mix($gold, #ffffff, 40%),
+    border: rgba(0, 0, 0, 0.125),
+    border-bg: rgba(255, 255, 255, 0.075),
+    border2: rgba(0, 0, 0, 0.25),
+    border2-bg: rgba(255, 255, 255, 0.2)
+  ),
+  accent2: (
+    bg: $aqua,
+    fg-bold: #ffffff,
+    fg: mix($aqua, #ffffff, 25%),
+    fg-light: mix($aqua, #ffffff, 40%),
+    border: rgba(0, 0, 0, 0.125),
+    border-bg: rgba(255, 255, 255, 0.075),
+    border2: rgba(0, 0, 0, 0.25),
+    border2-bg: rgba(255, 255, 255, 0.2)
+  ),
+  accent3: (
+    bg: $orange,
+    fg-bold: #ffffff,
+    fg: mix($orange, #ffffff, 25%),
+    fg-light: mix($orange, #ffffff, 40%),
+    border: rgba(0, 0, 0, 0.125),
+    border-bg: rgba(255, 255, 255, 0.075),
+    border2: rgba(0, 0, 0, 0.25),
+    border2-bg: rgba(255, 255, 255, 0.2)
+  ),
+  accent4: (
+    bg: $red,
+    fg-bold: #ffffff,
+    fg: mix($red, #ffffff, 25%),
+    fg-light: mix($red, #ffffff, 40%),
+    border: rgba(0, 0, 0, 0.125),
+    border-bg: rgba(255, 255, 255, 0.075),
+    border2: rgba(0, 0, 0, 0.25),
+    border2-bg: rgba(255, 255, 255, 0.2)
+  ),
+  accent5: (
+    bg: $purple,
+    fg-bold: #ffffff,
+    fg: mix($purple, #ffffff, 25%),
+    fg-light: mix($purple, #ffffff, 40%),
+    border: rgba(0, 0, 0, 0.125),
+    border-bg: rgba(255, 255, 255, 0.075),
+    border2: rgba(0, 0, 0, 0.25),
+    border2-bg: rgba(255, 255, 255, 0.2)
+  ),
+  accent6: (
+    bg: $blue,
+    fg-bold: #ffffff,
+    fg: mix($blue, #ffffff, 25%),
+    fg-light: mix($blue, #ffffff, 40%),
+    border: rgba(0, 0, 0, 0.125),
+    border-bg: rgba(255, 255, 255, 0.075),
+    border2: rgba(0, 0, 0, 0.25),
+    border2-bg: rgba(255, 255, 255, 0.2)
+  ),
+  accent7: (
+    bg: #ffffff,
+    fg-bold: #2e3842,
+    fg: #4e4852,
+    fg-light: #8e8892,
+    border: #dfdfdf,
+    border-bg: rgba(0, 0, 0, 0.0375),
+    border2: #bfbfbf,
+    border2-bg: rgba(0, 0, 0, 0.1)
+  )
+);
