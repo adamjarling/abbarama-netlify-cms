@@ -1,25 +1,17 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Link, graphql } from "gatsby";
-import logo from "../images/logo-long-cutout.png";
+import logo from "../images/logo-teal.png";
 import Layout from "../components/Layout";
 import Features from "../components/Features";
 import BlogRoll from "../components/BlogRoll";
 import Scroll from "../components/Scroll";
 import config from "../../config";
-import sunglasses from "../images/RVS02391-Edit.jpg";
-import bow from "../images/RVS08336.jpg";
-import vidScreen from "../images/ABBARAMAPressPhoto1.jpg";
 import poster from "../images/posters/2020-03-10-roa.jpg";
 import photosHolder from "../images/photos/RVS02391-Edit-lo-res.jpg";
 import TourDates from "../components/TourDates";
 import Footer from "../components/Footer";
-import {
-  BrowserView,
-  MobileView,
-  isBrowser,
-  isMobile
-} from "react-device-detect";
+import { BrowserView } from "react-device-detect";
 import { tourDates } from "../tour-dates";
 
 export const IndexPageTemplate = ({
@@ -82,18 +74,6 @@ export const IndexPageTemplate = ({
       </div>
     </section>
 
-    <section id="tour-dates" className="wrapper style7 special">
-      <div className="inner">
-        <header className="major">
-          <h2>On Tour</h2>
-        </header>
-        <TourDates tourDates={tourDates.slice(0, 3)} />
-      </div>
-      <Link to="/tour" className="button primary">
-        View all tour dates
-      </Link>
-    </section>
-
     <section id="feature" className="wrapper style8 special">
       <div className="inner">
         <div className="box alt">
@@ -108,21 +88,17 @@ export const IndexPageTemplate = ({
       </div>
     </section>
 
-    {/* <section id="videos" className="wrapper style3 align-center">
-      <p>
-        Hej, kolla vår nya video!
-        <i>(Hey, check out our new video)!</i>
-      </p>
-
-      <iframe
-        width="854"
-        height="480"
-        src="https://www.youtube.com/embed/XPiPIyvae74"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
-    </section> */}
+    <section id="tour-dates" className="wrapper style7 special">
+      <div className="inner">
+        <header className="major">
+          <h2>On Tour</h2>
+        </header>
+        <TourDates tourDates={tourDates} />
+      </div>
+      <Link to="/tour" className="button primary">
+        View all tour dates
+      </Link>
+    </section>
 
     <section id="two" className="wrapper alt style5">
       <section className="spotlight">

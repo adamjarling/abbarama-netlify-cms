@@ -1,7 +1,7 @@
 #header {
   .logo {
     max-height: 2rem;
-    margin-top: 7px;
+    margin-top: 10px;
 
     @media screen and (max-width: 736px) {
       max-height: 1.5rem;
@@ -10,6 +10,7 @@
 }
 
 .home-logo {
+  width: 600px;
   @media screen and (max-width: 736px) {
     width: 100%;
     margin-top: 11px;
@@ -45,7 +46,13 @@
   }
   .actions-wrapper {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
+    .button {
+      margin: 0 5px 10px;
+    }
+    @media screen and (max-width: 736px) {
+      justify-content: flex-start;
+    }
   }
 }
 
@@ -57,4 +64,19 @@
 
 .tko-logo {
   width: 300px;
+  @media screen and (max-width: 736px) {
+    width: 200px;
+  }
+}
+
+.footer-logo {
+  width: 200px;
+}
+
+.reviews {
+  p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-style: italic;
+  }
 }

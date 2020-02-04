@@ -4,7 +4,7 @@ export const tourDates = [
     location: "Key West, Florida USA",
     venue: "Key West Theater",
     rsvp: "",
-    ticketUrl: "",
+    ticketUrl: "https://www.thekeywesttheater.com/tickets-events/",
     venueUrl: "https://www.thekeywesttheater.com/e/abbarama-73440058191/"
   },
   {
@@ -12,7 +12,8 @@ export const tourDates = [
     location: "Dania Beach, Florida USA",
     venue: "Dania Beach Casino",
     rsvp: "",
-    ticketUrl: "",
+    ticketUrl:
+      "https://tickets.completeticketsolutions.com/CDB/Online/default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=5D4DA9C5-F00D-48C2-9353-E025135982BF",
     venueUrl: "https://casinodaniabeach.com/entertainment-3/"
   },
   {
@@ -29,6 +30,62 @@ export const tourDates = [
     venue: "Rams Head On Stage",
     rsvp: "",
     ticketUrl: "https://www.ramsheadonstage.com/calendar/page/2/",
+    venueUrl: ""
+  },
+  {
+    date: "2020-07-10",
+    location: "Sydney, AUSTRALIA",
+    venue: "Enmore Theater",
+    rsvp: "",
+    ticketUrl: "https://metropolistouring.com/abbarama-2020/",
+    venueUrl: ""
+  },
+  {
+    date: "2020-07-11",
+    location: "Gold Coast, AUSTRALIA",
+    venue: "Southport RSL",
+    rsvp: "",
+    ticketUrl: "https://metropolistouring.com/abbarama-2020/",
+    venueUrl: ""
+  },
+  {
+    date: "2020-07-12",
+    location: "Brisbane, AUSTRALIA",
+    venue: "The Triffid",
+    rsvp: "",
+    ticketUrl: "https://metropolistouring.com/abbarama-2020/",
+    venueUrl: ""
+  },
+  {
+    date: "2020-07-15",
+    location: "Adelaide, AUSTRALIA",
+    venue: "The Gov",
+    rsvp: "",
+    ticketUrl: "https://metropolistouring.com/abbarama-2020/",
+    venueUrl: ""
+  },
+  {
+    date: "2020-07-17",
+    location: "Melbourne, AUSTRALIA",
+    venue: "Palms at Crown",
+    rsvp: "",
+    ticketUrl: "https://metropolistouring.com/abbarama-2020/",
+    venueUrl: ""
+  },
+  {
+    date: "2020-07-18",
+    location: "Melbourne, AUSTRALIA",
+    venue: "Palms at Crown",
+    rsvp: "",
+    ticketUrl: "https://metropolistouring.com/abbarama-2020/",
+    venueUrl: ""
+  },
+  {
+    date: "2020-07-19",
+    location: "Perth, AUSTRALIA",
+    venue: "Rosemont Hotel",
+    rsvp: "",
+    ticketUrl: "https://metropolistouring.com/abbarama-2020/",
     venueUrl: ""
   }
 ];

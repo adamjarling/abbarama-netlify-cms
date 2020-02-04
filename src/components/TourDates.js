@@ -6,7 +6,7 @@ const TourDates = ({ tourDates = [] }) => {
   return (
     <ul className="alt align-left tour-dates">
       {tourDates.map(({ date, location, venue, rsvp, ticketUrl, venueUrl }) => (
-        <li>
+        <li key={date}>
           <div className="row">
             <div className="col-3 col-12-small date">
               {moment(date).format("MMM D YYYY")}
@@ -23,9 +23,14 @@ const TourDates = ({ tourDates = [] }) => {
               <p>{location}</p>
             </div>
             <div className="col-5 col-12-small actions-wrapper">
-              <a href="#" className="button narrow icon solid fa-user-plus">
-                RSVP
-              </a>
+              {rsvp && (
+                <a
+                  href={rsvp}
+                  className="button narrow icon solid fa-user-plus"
+                >
+                  RSVP
+                </a>
+              )}
               {ticketUrl && (
                 <a
                   href={ticketUrl}

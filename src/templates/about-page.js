@@ -46,7 +46,7 @@ const AboutPage = ({ data }) => {
     <Layout fullMenu>
       <div id="page-wrapper" className="about-page">
         <article id="main">
-          <header class="about-page">
+          <header className="about-page">
             <h2>About</h2>
             <p>Aliquam ut ex ut interdum donec amet imperdiet eleifend</p>
           </header>
@@ -90,30 +90,30 @@ const AboutPage = ({ data }) => {
               </p>
             </div>
           </section>
-          <section className="wrapper style1">
+          <section className="wrapper style1 special reviews">
             <div className="inner">
               <h3>Fan &amp; Live Reviews</h3>
 
-              <blockquote>
+              <p>
                 “It was like watching the real ABBA! We all sang along ABBA
                 hits”
-              </blockquote>
+              </p>
 
-              <blockquote>
+              <p>
                 “Loved it! Enjoyed the show. Love the songs. Great sing alongs”
-              </blockquote>
+              </p>
 
-              <blockquote>
+              <p>
                 “The vocals were authentic, the sound was amazing and the band
                 members were very personable and connected well with the crowd!”
-              </blockquote>
+              </p>
 
-              <blockquote>“Wonderful show with great energy”</blockquote>
+              <p>“Wonderful show with great energy”</p>
 
-              <blockquote>
+              <p>
                 “Loved it. Great fun loving crowd too. If you get a chance to
                 see them you should”
-              </blockquote>
+              </p>
 
               <div class="center">
                 <a href="pdf/abbarama-one-sheet-v5.pdf" class="button primary">

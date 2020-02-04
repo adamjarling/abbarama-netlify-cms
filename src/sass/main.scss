@@ -1490,7 +1490,7 @@
 		@include vendor('transition', 'background-color #{_duration(transitions)} ease');
 		//background: _palette(bg);
 		background-color: rgba(0, 0, 0, 0.5);
-		height: 3em;
+		height: 3.5em;
 		left: 0;
 		line-height: 3em;
 		position: fixed;
@@ -1789,7 +1789,7 @@
 	#main {
 		> header {
 			@include padding(12em, 0);
-			@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/RVS08336.jpg")'));
+			@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/photos/RVS08336.jpg")'));
 			background-attachment: fixed;
 			background-position: center center;
 			background-repeat: no-repeat;
@@ -1798,19 +1798,19 @@
 
 			/* Custom header images for pages */
 			&.about-page {
-				@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/RVS01538.jpg")'));
+				@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/header2.jpg")'));
 			}
 			&.photos-page {
-				@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/RVS02391-Edit.jpg")'));
+				@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/header1.jpg")'));
 			}
 			&.tour-page {
-				@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/photos/DSC_0276-lo-res.jpg")'));
+				@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/photos/DSC_0175-2-lo-res.jpg")'));
 			}
 			&.videos-page {
-				@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/photos/DSC08551-2-lo-res.jpg")'));
+				@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/header4.png")'));
 			}
 			&.booking-page {
-				@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/photos/DSC_0884-2-lo-res.jpg")'));
+				@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/photos/RVS02496-Edit-2-lo-res.jpg")'));
 			}
 
 			h2 {
@@ -1931,7 +1931,7 @@
 
 	body.landing, .main-body.landing {
 		#page-wrapper {
-			@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/RVS08336.jpg")'));
+			@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.2), rgba(0,0,0,0.2))', 'url("../images/bg-page-wrapper.jpg")'));
 			background-attachment: fixed;
 			background-position: center center;
 			background-repeat: no-repeat;
@@ -1939,19 +1939,19 @@
 			padding-top: 0;
 			
 			&.about-page {
-				@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/RVS01538.jpg")'));
+				@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/header2.jpg")'));
 			}
 			&.tour-page {
-				@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/photos/DSC_0276-lo-res.jpg")'));
+				@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/photos/DSC_0175-2-lo-res.jpg")'));
 			}
 			&.photos-page {
-				@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/RVS02391-Edit.jpg")'));
+				@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/header1.jpg")'));
 			}
 			&.videos-page {
-				@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/photos/DSC08551-2-lo-res.jpg")'));
+				@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/header4.png")'));
 			}
 			&.booking-page {
-				@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/photos/DSC_0884-2-lo-res.jpg")'));
+				@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/photos/RVS02496-Edit-2-lo-res.jpg")'));
 			}
 		}
 
@@ -1969,7 +1969,7 @@
 
 			#banner,
 			.wrapper.style4 {
-				@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/RVS08336.jpg")'));
+				@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/photos/RVS08336.jpg")'));
 				background-position: center center;
 				background-repeat: no-repeat;
 				background-size: cover;

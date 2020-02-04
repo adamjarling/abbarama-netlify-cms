@@ -25,19 +25,19 @@ export default function Nav({ onMenuToggle = () => {} }) {
                 <Link to="/tour">Tour Dates</Link>
               </li>
               <li>
-                <Link to="/photos">Photos</Link>
+                <Link to="/about">About</Link>
               </li>
               <li>
                 <Link to="/videos">Videos</Link>
               </li>
               <li>
-                <Link to="/about">About</Link>
+                <Link to="/photos">Photos</Link>
               </li>
               <li>
                 <Link to="/booking">Booking</Link>
               </li>
 
-              <li>
+              {/* <li>
                 <Link to="/epk">Electronic Press Kit</Link>
               </li>
 
@@ -46,7 +46,7 @@ export default function Nav({ onMenuToggle = () => {} }) {
               </li>
               <li>
                 <Link to="/elements">Elements</Link>
-              </li>
+              </li> */}
             </ul>
             <a
               className="close"
