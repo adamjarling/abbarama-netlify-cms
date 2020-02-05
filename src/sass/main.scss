@@ -1789,7 +1789,7 @@
 	#main {
 		> header {
 			@include padding(12em, 0);
-			@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/photos/RVS08336.jpg")'));
+			@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../photos/RVS08336.jpg")'));
 			background-attachment: fixed;
 			background-position: center center;
 			background-repeat: no-repeat;
@@ -1798,19 +1798,19 @@
 
 			/* Custom header images for pages */
 			&.about-page {
-				@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/header2.jpg")'));
+				@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.3), rgba(0,0,0,0.3))', 'url("../images/header2.jpg")'));
 			}
 			&.photos-page {
-				@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/header1.jpg")'));
+				@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.3), rgba(0,0,0,0.3))', 'url("../images/header7.jpg")'));
 			}
 			&.tour-page {
-				@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/photos/DSC_0175-2-lo-res.jpg")'));
+				@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.3), rgba(0,0,0,0.3))', 'url("../images/header13.jpg")'));
 			}
 			&.videos-page {
-				@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/header4.png")'));
+				@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.3), rgba(0,0,0,0.3))', 'url("../images/header10.jpg")'));
 			}
 			&.booking-page {
-				@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/photos/RVS02496-Edit-2-lo-res.jpg")'));
+				@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.3), rgba(0,0,0,0.3))', 'url("../images/header11.jpg")'));
 			}
 
 			h2 {
@@ -1939,19 +1939,19 @@
 			padding-top: 0;
 			
 			&.about-page {
-				@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/header2.jpg")'));
+				@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.3), rgba(0,0,0,0.3))', 'url("../images/header2.jpg")'));
 			}
 			&.tour-page {
-				@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/photos/DSC_0175-2-lo-res.jpg")'));
+				@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.3), rgba(0,0,0,0.3))', 'url("../images/header13.jpg")'));
 			}
 			&.photos-page {
-				@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/header1.jpg")'));
+				@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.3), rgba(0,0,0,0.3))', 'url("../images/header7.jpg")'));
 			}
 			&.videos-page {
-				@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/header4.png")'));
+				@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.3), rgba(0,0,0,0.3))', 'url("../images/header10.jpg")'));
 			}
 			&.booking-page {
-				@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/photos/RVS02496-Edit-2-lo-res.jpg")'));
+				@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.3), rgba(0,0,0,0.3))', 'url("../images/header11.jpg")'));
 			}
 		}
 
@@ -1969,7 +1969,7 @@
 
 			#banner,
 			.wrapper.style4 {
-				@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/photos/RVS08336.jpg")'));
+				@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../photos/RVS08336.jpg")'));
 				background-position: center center;
 				background-repeat: no-repeat;
 				background-size: cover;

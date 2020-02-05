@@ -120,7 +120,7 @@ export default IndexPage;
 
 export const query = graphql`
   query GetPhotosQuery {
-    allFile(filter: { sourceInstanceName: { eq: "photos" } }) {
+    allFile(filter: { sourceInstanceName: { eq: "myphotos" } }) {
       edges {
         node {
           publicURL

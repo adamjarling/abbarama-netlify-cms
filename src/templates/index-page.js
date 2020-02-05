@@ -8,11 +8,12 @@ import BlogRoll from "../components/BlogRoll";
 import Scroll from "../components/Scroll";
 import config from "../../config";
 import poster from "../images/posters/2020-03-10-roa.jpg";
-import photosHolder from "../images/photos/RVS02391-Edit-lo-res.jpg";
+import photosHolder from "../photos/RVS02391-Edit-lo-res.jpg";
 import TourDates from "../components/TourDates";
 import Footer from "../components/Footer";
 import { BrowserView } from "react-device-detect";
 import { tourDates } from "../tour-dates";
+import logoLong from "../images/logo-teal-long.png";
 
 export const IndexPageTemplate = ({
   image,
@@ -57,20 +58,38 @@ export const IndexPageTemplate = ({
         </BrowserView>
 
         <p>
-          ABBARAMA is a 7 piece live band and video production of ABBA performed
-          by young musicians from Sweden, UK and USA. Video and art direction
-          produced by{" "}
-          <a href="https://kiiarens.com/" target="_blank">
-            KII Arens
-          </a>{" "}
-          (Lady Gaga, Katy Perry) and music production by{" "}
-          <a href="http://www.gregcollinsmusic.com/" target="_blank">
-            Greg Collins
-          </a>{" "}
-          (U2, Gwen Stefani) creates a contemporary sound and look at ABBA’s
-          music, fashion, and lifestyle bringing the ultimate Modern ABBA Pop
-          Art Live Band Experience!
+          Super-stylish pop sensation ABBARAMA brings the Modern ABBA Live
+          Experience to stages around the world!
         </p>
+
+        <p>
+          Get ready to sing-along to all your favorite ABBA songs – Gimme!
+          Gimme! Gimme!, Mamma Mia, Dancing Queen, Take A Chance on Me, Super
+          Trouper, Waterloo, The Winner Takes it All and so many more. The live
+          band ABBARAMA celebrates the music of ABBA adding an electronic dance
+          vibe to ABBA’s classic pop songs!
+        </p>
+
+        <p>
+          Delivered with contagious energy and video projections by Kii Arens
+          (Elton John, Kacey Musgraves, Lady Gaga) this unique Pop Art
+          experience is an exciting contemporary take on the fashion and style
+          of ABBA.
+        </p>
+
+        <p>
+          <em>
+            “We all grew up listening to ABBA, and started ABBARAMA because we
+            love the music and wanted to bring you the best show in the world!”
+          </em>{" "}
+          - Josephine Forsman.
+        </p>
+
+        <p>
+          The incredible legacy ABBA gave the world is alive and on stage.
+          Welcome to the Future of 1973. It’s...
+        </p>
+        <img src={logoLong} alt="ABBARAMA logo" className="home-about-logo" />
       </div>
     </section>
 
@@ -88,7 +107,7 @@ export const IndexPageTemplate = ({
       </div>
     </section>
 
-    <section id="tour-dates" className="wrapper style7 special">
+    <section id="tour-dates" className="wrapper style5 special">
       <div className="inner">
         <header className="major">
           <h2>On Tour</h2>
@@ -100,7 +119,7 @@ export const IndexPageTemplate = ({
       </Link>
     </section>
 
-    <section id="two" className="wrapper alt style5">
+    <section id="two" className="wrapper alt style3">
       <section className="spotlight">
         <div className="image">
           <div className="videoWrapper">
@@ -115,7 +134,7 @@ export const IndexPageTemplate = ({
           </div>
         </div>
         <div className="content">
-          <h2>Hej, kolla vår nya video!</h2>
+          <h2>Hej! Kolla in vår nya video!</h2>
           <p>(Hey, check out our new video)!</p>
           <p>
             <Link to="/" className="button primary">

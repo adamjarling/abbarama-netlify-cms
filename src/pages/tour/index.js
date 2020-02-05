@@ -12,7 +12,7 @@ const IndexPage = () => (
           <h2>On Tour...</h2>
           <p>Spreading the music of ABBA across the globe</p>
         </header>
-        <section className="wrapper style7">
+        <section className="wrapper style5">
           <div className="inner">
             <TourDates tourDates={tourDates} />
           </div>

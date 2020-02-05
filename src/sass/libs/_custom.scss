@@ -17,6 +17,13 @@
   }
 }
 
+.home-about-logo {
+  width: 400px;
+  @media screen and (max-width: 736px) {
+    width: 100%;
+  }
+}
+
 // Make iFrame videos responsive
 .videoWrapper {
   position: relative;
