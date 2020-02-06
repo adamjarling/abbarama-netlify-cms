@@ -176,7 +176,7 @@ export const IndexPageTemplate = ({
           width="100%"
           height="300"
           scrolling="no"
-          frameborder="no"
+          frameBorder="no"
           allow="autoplay"
           src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/383435171&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
         ></iframe>
@@ -303,7 +303,7 @@ const IndexPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark;
 
   return (
-    <Layout>
+    <Layout isLandingPage>
       <IndexPageTemplate
         image={frontmatter.image}
         title={frontmatter.title}

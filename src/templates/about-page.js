@@ -115,8 +115,11 @@ const AboutPage = ({ data }) => {
                 see them you should”
               </p>
 
-              <div class="center">
-                <a href="pdf/abbarama-one-sheet-v5.pdf" class="button primary">
+              <div className="center">
+                <a
+                  href="pdf/abbarama-one-sheet-v5.pdf"
+                  className="button primary"
+                >
                   Download EPK
                 </a>
               </div>

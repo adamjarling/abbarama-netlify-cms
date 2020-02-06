@@ -19,9 +19,9 @@ const IndexPage = () => (
                     width="560"
                     height="315"
                     src="https://www.youtube.com/embed/XPiPIyvae74"
-                    frameborder="0"
+                    frameBorder="0"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen
+                    allowFullScreen
                   ></iframe>
                 </span>
               </div>
@@ -31,9 +31,9 @@ const IndexPage = () => (
                     width="560"
                     height="315"
                     src="https://www.youtube.com/embed/sOcnP9ca14w"
-                    frameborder="0"
+                    frameBorder="0"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen
+                    allowFullScreen
                   ></iframe>
                 </span>
               </div>
@@ -43,9 +43,9 @@ const IndexPage = () => (
                     width="560"
                     height="315"
                     src="https://www.youtube.com/embed/ecmvH0mHbfY"
-                    frameborder="0"
+                    frameBorder="0"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen
+                    allowFullScreen
                   ></iframe>
                 </span>
               </div>
@@ -55,9 +55,9 @@ const IndexPage = () => (
                     width="560"
                     height="315"
                     src="https://www.youtube.com/embed/qxAQeLXEAXE"
-                    frameborder="0"
+                    frameBorder="0"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen
+                    allowFullScreen
                   ></iframe>
                 </span>
               </div>

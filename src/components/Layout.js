@@ -1,13 +1,13 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
 import useSiteMetadata from "./SiteMetadata";
 import { withPrefix } from "gatsby";
 import "../sass/main.scss";
 import SideBar from "../components/Sidebar";
+import { isMobile } from "react-device-detect";
 
-const TemplateWrapper = ({ children, fullMenu }) => {
+const TemplateWrapper = ({ children, fullMenu, isLandingPage }) => {
   const { title, description } = useSiteMetadata();
   const isPreloaded = false;
 
@@ -52,9 +52,11 @@ const TemplateWrapper = ({ children, fullMenu }) => {
         />
       </Helmet>
       <div
-        className={
-          isPreloaded ? "landing main-body is-preload" : "landing main-body"
-        }
+        className={`${isLandingPage ? "landing" : ""} ${
+          isMobile ? "is-mobile" : ""
+        } main-body
+            ${isPreloaded ? "is-preload" : ""}
+          `}
       >
         <div>
           <SideBar fullMenu={fullMenu} />

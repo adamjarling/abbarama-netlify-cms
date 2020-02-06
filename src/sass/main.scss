@@ -1852,7 +1852,15 @@
 		}
 	}
 
-	body.is-mobile {
+	// body.is-mobile {
+	// 	#main {
+	// 		> header {
+	// 			background-attachment: scroll;
+	// 		}
+	// 	}
+	// }
+
+	.is-mobile {
 		#main {
 			> header {
 				background-attachment: scroll;
@@ -1864,7 +1872,8 @@
 
 	#footer {
 		@include padding(6em, 0);
-		background-color: darken(_palette(bg), 8);
+		// background-color: darken(_palette(bg), 8);
+		background-color: $blue;
 		text-align: center;
 
 		.icons {
@@ -1938,21 +1947,21 @@
 			background-size: cover;
 			padding-top: 0;
 
-			&.about-page {
-				@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.3), rgba(0,0,0,0.3))', 'url("../images/header2.jpg")'));
-			}
-			&.tour-page {
-				@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.3), rgba(0,0,0,0.3))', 'url("../images/header13.jpg")'));
-			}
-			&.photos-page {
-				@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.3), rgba(0,0,0,0.3))', 'url("../images/header7.jpg")'));
-			}
-			&.videos-page {
-				@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.3), rgba(0,0,0,0.3))', 'url("../photos/ABBARAMA-RAINBOW.png")'));
-			}
-			&.booking-page {
-				@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.3), rgba(0,0,0,0.3))', 'url("../images/header11.jpg")'));
-			}
+		// 	&.about-page {
+		// 		@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.3), rgba(0,0,0,0.3))', 'url("../images/header2.jpg")'));
+		// 	}
+		// 	&.tour-page {
+		// 		@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.3), rgba(0,0,0,0.3))', 'url("../images/header13.jpg")'));
+		// 	}
+		// 	&.photos-page {
+		// 		@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.3), rgba(0,0,0,0.3))', 'url("../images/header7.jpg")'));
+		// 	}
+		// 	&.videos-page {
+		// 		@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.3), rgba(0,0,0,0.3))', 'url("../photos/ABBARAMA-RAINBOW.png")'));
+		// 	}
+		// 	&.booking-page {
+		// 		@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.3), rgba(0,0,0,0.3))', 'url("../images/header11.jpg")'));
+		// 	}
 		}
 
 		#footer {
@@ -1961,7 +1970,7 @@
 		}
 	}
 
-	body.is-mobile {
+	.is-mobile {
 		&.landing {
 			#page-wrapper {
 				background: none;
@@ -1976,7 +1985,8 @@
 			}
 
 			#footer {
-				background-color: darken(_palette(bg), 8);
+				//background-color: darken(_palette(bg), 8);
+				background-color: $aqua;
 			}
 		}
 	}
