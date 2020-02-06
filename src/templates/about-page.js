@@ -48,7 +48,7 @@ const AboutPage = ({ data }) => {
         <article id="main">
           <header className="about-page">
             <h2>About</h2>
-            <p>Aliquam ut ex ut interdum donec amet imperdiet eleifend</p>
+            <p>A modern pop art celebration of ABBA</p>
           </header>
           <section className="wrapper style7">
             <div className="inner">

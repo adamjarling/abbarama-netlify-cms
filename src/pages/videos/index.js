@@ -8,7 +8,7 @@ const IndexPage = () => (
       <article id="main">
         <header className="videos-page">
           <h2>Videos</h2>
-          <p>Aliquam ut ex ut interdum donec amet imperdiet eleifend</p>
+          <p>Directed by Kii Arens</p>
         </header>
         <section className="wrapper style7">
           <div className="inner">

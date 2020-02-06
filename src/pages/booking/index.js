@@ -9,7 +9,7 @@ const IndexPage = () => (
       <article id="main">
         <header className="booking-page">
           <h2>Booking</h2>
-          <p>Aliquam ut ex ut interdum donec amet imperdiet eleifend</p>
+          <p>Share the magic of ABBARAMA</p>
         </header>
         <section className="wrapper style7">
           <div className="inner align-center">
