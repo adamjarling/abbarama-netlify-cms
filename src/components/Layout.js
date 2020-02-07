@@ -9,12 +9,13 @@ import { isMobile } from "react-device-detect";
 
 const TemplateWrapper = ({ children, fullMenu, isLandingPage }) => {
   const { title, description } = useSiteMetadata();
-  const isPreloaded = false;
   const [mobile, setMobile] = useState();
   const [menuVisible, setMenuVisible] = useState();
+  const [isPreloaded, setIsPreloaded] = useState(true);
 
   useEffect(() => {
     setMobile(isMobile);
+    setIsPreloaded(false);
   }, []);
 
   return (
