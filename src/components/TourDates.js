@@ -14,7 +14,7 @@ const TourDates = ({ tourDates = [] }) => {
             <div className="col-4 col-12-small">
               {venueUrl && (
                 <p className="venue">
-                  <a href={venueUrl} target="_blank">
+                  <a href={venueUrl} target="_blank" rel="noopener noreferrer">
                     {venue}
                   </a>
                 </p>
@@ -27,6 +27,7 @@ const TourDates = ({ tourDates = [] }) => {
                 <a
                   href={rsvp}
                   className="button narrow icon solid fa-user-plus"
+                  rel="noopener noreferrer"
                 >
                   RSVP
                 </a>
@@ -36,6 +37,7 @@ const TourDates = ({ tourDates = [] }) => {
                   href={ticketUrl}
                   className="button narrow icon solid fa-ticket-alt"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Tickets
                 </a>

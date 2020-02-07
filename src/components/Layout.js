@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Helmet } from "react-helmet";
 import Footer from "../components/Footer";
 import useSiteMetadata from "./SiteMetadata";
@@ -10,6 +10,12 @@ import { isMobile } from "react-device-detect";
 const TemplateWrapper = ({ children, fullMenu, isLandingPage }) => {
   const { title, description } = useSiteMetadata();
   const isPreloaded = false;
+  const [mobile, setMobile] = useState();
+  const [menuVisible, setMenuVisible] = useState();
+
+  useEffect(() => {
+    setMobile(isMobile);
+  }, []);
 
   return (
     <div>
@@ -52,14 +58,14 @@ const TemplateWrapper = ({ children, fullMenu, isLandingPage }) => {
         />
       </Helmet>
       <div
-        className={`${isLandingPage ? "landing" : ""} ${
-          isMobile ? "is-mobile" : ""
-        } main-body
+        className={`${mobile ? "is-mobile" : ""} ${
+          isLandingPage ? "landing" : ""
+        } ${menuVisible ? "is-menu-visible" : ""} main-body
             ${isPreloaded ? "is-preload" : ""}
           `}
       >
         <div>
-          <SideBar fullMenu={fullMenu} />
+          <SideBar fullMenu={fullMenu} setMenuVisible={setMenuVisible} />
           {children}
           {/* <Footer /> */}
         </div>

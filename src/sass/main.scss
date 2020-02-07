@@ -1385,7 +1385,7 @@
 	#page-wrapper {
 		@include vendor('transition', 'opacity #{_duration(menu)} ease');
 		opacity: 1;
-		padding-top: 3em;
+		//padding-top: 3em;
 
 		&:before {
 			background: rgba(0,0,0,0);

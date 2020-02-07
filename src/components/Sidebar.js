@@ -1,10 +1,19 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Nav from "./Nav";
 import { Link } from "gatsby";
 import logo from "../images/logo-teal-long.png";
 
-export default function SideBar({ fullMenu }) {
+export default function SideBar({ fullMenu, setMenuVisible }) {
   const [headerOpen, toggleHeader] = useState(false);
+
+  useEffect(() => {
+    if (headerOpen) {
+      setMenuVisible(true);
+    } else {
+      setMenuVisible(false);
+    }
+  }, [headerOpen]);
+
   return (
     <header id="header" className={`${fullMenu ? "" : "alt"}`}>
       <h1>
