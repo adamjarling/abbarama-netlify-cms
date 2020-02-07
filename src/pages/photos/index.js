@@ -50,7 +50,7 @@ const IndexPage = ({ data }) => {
         <article id="main">
           <header className="photos-page">
             <h2>Photos</h2>
-            <p>of the ABBARAMA lifestyle</p>
+            <p>Modern ABBA Pop Art Experience</p>
           </header>
           <section className="wrapper style7">
             <div className="inner">

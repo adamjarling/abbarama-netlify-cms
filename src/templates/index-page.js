@@ -137,7 +137,7 @@ export const IndexPageTemplate = ({
           <h2>Hej! Kolla in vår nya video!</h2>
           <p>(Hey, check out our new video)!</p>
           <p>
-            <Link to="/" className="button primary">
+            <Link to="/videos" className="button primary">
               Watch videos
             </Link>
           </p>
@@ -145,21 +145,15 @@ export const IndexPageTemplate = ({
       </section>
       <section className="spotlight">
         <div className="image">
-          <Link to="/">
+          <Link to="/photos">
             <img src={photosHolder} alt="ABBARAMA photos" />
           </Link>
         </div>
         <div className="content">
           <h2>Photos</h2>
+          <p>Fashion, art, music, photos</p>
           <p>
-            Lorem ipsum dolor sit amet, cu ullum fierent eam, case oblique
-            vivendum mel ad. Pro in oblique sapientem, ut quo illum graeco
-            fierent, audiam oportere vel an. No suas dolorem nam, mel mutat
-            justo ei. Nec reque populo latine in, quot scaevola ex pri. Alii
-            tota in nam, ne vix persius tibique.
-          </p>
-          <p>
-            <Link to="/" className="button primary">
+            <Link to="/photos" className="button primary">
               Look at photos
             </Link>
           </p>

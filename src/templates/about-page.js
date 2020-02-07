@@ -119,6 +119,8 @@ const AboutPage = ({ data }) => {
                 <a
                   href="pdf/abbarama-one-sheet-v5.pdf"
                   className="button primary"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Download EPK
                 </a>

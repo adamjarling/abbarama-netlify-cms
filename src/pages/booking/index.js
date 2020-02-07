@@ -9,7 +9,7 @@ const IndexPage = () => (
       <article id="main">
         <header className="booking-page">
           <h2>Booking</h2>
-          <p>Share the magic of ABBARAMA</p>
+          <p>Worldwide artist representation</p>
         </header>
         <section className="wrapper style7">
           <div className="inner align-center">
@@ -26,9 +26,14 @@ const IndexPage = () => (
               /<a href="mailto:jimlenz@tkoco.com">jimlenz@tkoco.com</a>
             </address>
 
-            <ul class="actions fit">
+            <ul className="actions fit">
               <li>
-                <a href="/#" class="button primary fit">
+                <a
+                  href="pdf/abbarama-one-sheet-v5.pdf"
+                  className="button primary fit"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Download EPK
                 </a>
               </li>

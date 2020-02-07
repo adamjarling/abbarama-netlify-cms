@@ -1,5 +1,7 @@
 # ABBARAMA
 
+[abbarama.com](https://www.abbarama.com/)
+
 ## Built with
 
 - GatsbyJS
@@ -8,7 +10,7 @@
 
 ### Author
 
-- Adam J. Arling @adamjarling (https://github.com/adamjarling)
+- Adam J. Arling [@adamjarling](https://github.com/adamjarling)
 
 ## About ABBARAMA
 
