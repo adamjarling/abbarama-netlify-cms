@@ -21,7 +21,7 @@ export const tourDates = [
     location: "Hollywood, California USA",
     venue: "Rock of Ages Bourbon Room",
     rsvp: "",
-    ticketUrl: "",
+    ticketUrl: "https://www.eventbrite.com/e/abbarama-tickets-93022736509",
     venueUrl: "https://www.rockofageshollywood.com/"
   },
   {

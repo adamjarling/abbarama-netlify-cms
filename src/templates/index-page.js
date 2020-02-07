@@ -101,6 +101,13 @@ export const IndexPageTemplate = ({
               <span className="image fit">
                 <img src={poster} alt="Rock of Ages" />
               </span>
+              <a
+                href="https://www.eventbrite.com/e/abbarama-tickets-93022736509"
+                target="_blank"
+                className="button primary"
+              >
+                Get Tickets
+              </a>
             </div>
           </div>
         </div>

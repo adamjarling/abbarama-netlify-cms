@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
+import config from "../../config";
 
 export default function Nav({ onMenuToggle = () => {} }) {
   return (
@@ -35,6 +36,22 @@ export default function Nav({ onMenuToggle = () => {} }) {
               </li>
               <li>
                 <Link to="/booking">Booking</Link>
+              </li>
+              <li>
+                <div className="icons nav-icons">
+                  {config.socialLinks.map(social => {
+                    const { style, icon, name, url } = social;
+                    return (
+                      <a
+                        key={url}
+                        href={url}
+                        className={`icon ${style} ${icon}`}
+                      >
+                        <span className="label">{name}</span>
+                      </a>
+                    );
+                  })}
+                </div>
               </li>
 
               {/* <li>
