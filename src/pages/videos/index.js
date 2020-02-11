@@ -22,6 +22,7 @@ const IndexPage = () => (
                     frameBorder="0"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
+                    title="ABBARAMA YouTube1"
                   ></iframe>
                 </span>
               </div>
@@ -34,6 +35,7 @@ const IndexPage = () => (
                     frameBorder="0"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
+                    title="ABBARAMA YouTube2"
                   ></iframe>
                 </span>
               </div>
@@ -46,6 +48,7 @@ const IndexPage = () => (
                     frameBorder="0"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
+                    title="ABBARAMA YouTube3"
                   ></iframe>
                 </span>
               </div>
@@ -58,6 +61,7 @@ const IndexPage = () => (
                     frameBorder="0"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
+                    title="ABBARAMA YouTube4"
                   ></iframe>
                 </span>
               </div>

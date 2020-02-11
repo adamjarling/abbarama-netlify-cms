@@ -20,24 +20,6 @@ export default function Nav({ onMenuToggle = () => {} }) {
           <div id="menu">
             <ul>
               <li>
-                <Link to="/">Home</Link>
-              </li>
-              <li>
-                <Link to="/tour">Tour Dates</Link>
-              </li>
-              <li>
-                <Link to="/about">About</Link>
-              </li>
-              <li>
-                <Link to="/videos">Videos</Link>
-              </li>
-              <li>
-                <Link to="/photos">Photos</Link>
-              </li>
-              <li>
-                <Link to="/booking">Booking</Link>
-              </li>
-              <li>
                 <div className="icons nav-icons">
                   {config.socialLinks.map(social => {
                     const { style, icon, name, url } = social;
@@ -52,6 +34,30 @@ export default function Nav({ onMenuToggle = () => {} }) {
                     );
                   })}
                 </div>
+              </li>
+              <li>
+                <Link to="/">Home</Link>
+              </li>
+              <li>
+                <Link to="/tour">Tour Dates</Link>
+              </li>
+              <li>
+                <Link to="/about">About</Link>
+              </li>
+              <li>
+                <Link to="/videos">Videos</Link>
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/abbaramaofficial/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Photos
+                </a>
+              </li>
+              <li>
+                <Link to="/booking">Booking</Link>
               </li>
 
               {/* <li>

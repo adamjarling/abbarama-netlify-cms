@@ -20,7 +20,11 @@ const IndexPage = () => (
               LOS ANGELES * NEW YORK * LONDON
               <br /> LA: (310) 273-9200 NY: (914) 346-8938
               <br />
-              <a href="http://www.tkoco.com" target="_blank">
+              <a
+                href="http://www.tkoco.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 www.tkoco.com
               </a>{" "}
               /<a href="mailto:jimlenz@tkoco.com">jimlenz@tkoco.com</a>
