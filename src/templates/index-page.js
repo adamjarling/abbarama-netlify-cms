@@ -3,8 +3,6 @@ import PropTypes from "prop-types";
 import { Link, graphql } from "gatsby";
 import logo from "../images/logo-teal.png";
 import Layout from "../components/Layout";
-import Features from "../components/Features";
-import BlogRoll from "../components/BlogRoll";
 import Scroll from "../components/Scroll";
 import config from "../../config";
 import poster from "../images/posters/2020-03-10-roa.jpg";
@@ -104,6 +102,7 @@ export const IndexPageTemplate = ({
               <a
                 href="https://www.eventbrite.com/e/abbarama-tickets-93022736509"
                 target="_blank"
+                rel="noopener noreferrer"
                 className="button primary"
               >
                 Get Tickets
@@ -131,6 +130,7 @@ export const IndexPageTemplate = ({
         <div className="image">
           <div className="videoWrapper">
             <iframe
+              title="ABBARAMA video 1"
               width="640"
               height="480"
               src="https://www.youtube.com/embed/XPiPIyvae74"
@@ -174,6 +174,7 @@ export const IndexPageTemplate = ({
           <h2>Latest single</h2>
         </header>
         <iframe
+          title="ABBARAMA video 2"
           width="100%"
           height="300"
           scrolling="no"

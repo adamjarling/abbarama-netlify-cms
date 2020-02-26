@@ -56,6 +56,14 @@ export const tourDates = [
     venueUrl: "https://www.rockofageshollywood.com/"
   },
   {
+    date: "2020-06-25",
+    location: "Austin, Texas USA",
+    venue: "3Ten - Austin City Limits",
+    rsvp: "",
+    ticketUrl: "https://3tenaustin.com/",
+    venueUrl: "https://3tenaustin.com/calendar/abbarama?utm_source=artist"
+  },
+  {
     date: "2020-07-10",
     location: "Sydney, AUSTRALIA",
     venue: "Enmore Theater",

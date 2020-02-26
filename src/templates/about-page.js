@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
-import Content, { HTMLContent } from "../components/Content";
+import Content from "../components/Content";
 import Footer from "../components/Footer";
 
 export const AboutPageTemplate = ({ title, content, contentComponent }) => {
@@ -33,8 +33,6 @@ AboutPageTemplate.propTypes = {
 };
 
 const AboutPage = ({ data }) => {
-  const { markdownRemark: post } = data;
-
   return (
     // <Layout>
     //   <AboutPageTemplate
@@ -71,7 +69,11 @@ const AboutPage = ({ data }) => {
 
               <p>
                 Delivered with contagious energy and video projections by{" "}
-                <a href="https://kiiarens.com/" target="_blank">
+                <a
+                  href="https://kiiarens.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   KII Arens
                 </a>{" "}
                 (Lady Gaga, Katy Perry) this unique Pop Art experience is an
