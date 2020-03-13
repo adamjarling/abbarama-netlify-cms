@@ -7,14 +7,14 @@ export const tourDates = [
     ticketUrl: "https://www.eventbrite.com/e/abbarama-tickets-93022736509",
     venueUrl: "https://www.rockofageshollywood.com/"
   },
-  {
-    date: "2020-03-24",
-    location: "Hollywood, California USA",
-    venue: "Rock of Ages Bourbon Room",
-    rsvp: "",
-    ticketUrl: "",
-    venueUrl: "https://www.rockofageshollywood.com/"
-  },
+  // {
+  //   date: "2020-03-24",
+  //   location: "Hollywood, California USA",
+  //   venue: "Rock of Ages Bourbon Room",
+  //   rsvp: "",
+  //   ticketUrl: "",
+  //   venueUrl: "https://www.rockofageshollywood.com/"
+  // },
   {
     date: "2020-03-26",
     location: "Annapolis, Maryland USA",
@@ -23,38 +23,38 @@ export const tourDates = [
     ticketUrl: "https://www.ramsheadonstage.com/calendar/page/2/",
     venueUrl: ""
   },
-  {
-    date: "2020-04-07",
-    location: "Hollywood, California USA",
-    venue: "Rock of Ages Bourbon Room",
-    rsvp: "",
-    ticketUrl: "",
-    venueUrl: "https://www.rockofageshollywood.com/"
-  },
-  {
-    date: "2020-04-21",
-    location: "Hollywood, California USA",
-    venue: "Rock of Ages Bourbon Room",
-    rsvp: "",
-    ticketUrl: "",
-    venueUrl: "https://www.rockofageshollywood.com/"
-  },
-  {
-    date: "2020-05-05",
-    location: "Hollywood, California USA",
-    venue: "Rock of Ages Bourbon Room",
-    rsvp: "",
-    ticketUrl: "",
-    venueUrl: "https://www.rockofageshollywood.com/"
-  },
-  {
-    date: "2020-05-19",
-    location: "Hollywood, California USA",
-    venue: "Rock of Ages Bourbon Room",
-    rsvp: "",
-    ticketUrl: "",
-    venueUrl: "https://www.rockofageshollywood.com/"
-  },
+  // {
+  //   date: "2020-04-07",
+  //   location: "Hollywood, California USA",
+  //   venue: "Rock of Ages Bourbon Room",
+  //   rsvp: "",
+  //   ticketUrl: "",
+  //   venueUrl: "https://www.rockofageshollywood.com/"
+  // },
+  // {
+  //   date: "2020-04-21",
+  //   location: "Hollywood, California USA",
+  //   venue: "Rock of Ages Bourbon Room",
+  //   rsvp: "",
+  //   ticketUrl: "",
+  //   venueUrl: "https://www.rockofageshollywood.com/"
+  // },
+  // {
+  //   date: "2020-05-05",
+  //   location: "Hollywood, California USA",
+  //   venue: "Rock of Ages Bourbon Room",
+  //   rsvp: "",
+  //   ticketUrl: "",
+  //   venueUrl: "https://www.rockofageshollywood.com/"
+  // },
+  // {
+  //   date: "2020-05-19",
+  //   location: "Hollywood, California USA",
+  //   venue: "Rock of Ages Bourbon Room",
+  //   rsvp: "",
+  //   ticketUrl: "",
+  //   venueUrl: "https://www.rockofageshollywood.com/"
+  // },
   {
     date: "2020-06-25",
     location: "Austin, Texas USA",
